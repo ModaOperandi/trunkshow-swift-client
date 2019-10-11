@@ -157,6 +157,9 @@ definitions:
         type: string
   Tag:
     type: object
+    required:
+      - key
+      - value
     properties:
       key:
         type: string
