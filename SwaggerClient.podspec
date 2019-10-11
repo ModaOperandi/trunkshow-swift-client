@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.authors = 'Swagger Codegen'
   s.license = 'Proprietary'
   s.source_files = 'SwaggerClient/Classes/**/*.swift'
-  s.dependency 'Alamofire', '~> 4.5.0'
+  s.dependency 'Alamofire'
   s.homepage = "http://swagger.io/"
   s.summary = 'Swagger Swift SDK'
 end
