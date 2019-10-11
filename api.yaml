@@ -29,6 +29,10 @@ paths:
           description: Image created.
           schema:
             $ref: '#/definitions/BackstageItem'
+        400:
+          description: Error
+          schema:
+            $ref: '#/definitions/Error'
   '/trunkshows/{trunkshow_id}/backstage/images/{image_id}':
     put:
       description: Publish a new backstage image
@@ -50,6 +54,10 @@ paths:
           description: Image created.
           schema:
             $ref: '#/definitions/BackstageItem'
+        400:
+          description: Error
+          schema:
+            $ref: '#/definitions/Error'
   '/trunkshows/{trunkshow_id}/backstage/items':
     get:
       description: Gets an array of backstage items for a trunkshow
@@ -76,6 +84,10 @@ paths:
           description: Image created.
           schema:
             $ref: '#/definitions/BackstageItems'
+        400:
+          description: Error
+          schema:
+            $ref: '#/definitions/Error'
 definitions:
   BackstageItem:
     type: object
@@ -136,6 +148,13 @@ definitions:
         type: array
         items:
           $ref: '#/definitions/Tag'
+  Error:
+    type: object
+    required:
+      - message
+    properties:
+      message:
+        type: string
   Tag:
     type: object
     properties:
