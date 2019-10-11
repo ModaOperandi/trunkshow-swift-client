@@ -13,7 +13,7 @@ public struct BackstageItem: Codable {
 
     public var comment: String?
 
-    public var _id: String
+    public var _id: UUID
 
     public var imageUrl: String?
 
