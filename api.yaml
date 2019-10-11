@@ -108,7 +108,7 @@ definitions:
       tags:
         type: array
         items:
-          $ref: '#/definitions/Tag'
+          type: string
       trunkshow_id:
         type: integer
         format: int32
@@ -131,7 +131,7 @@ definitions:
       tags:
         type: array
         items:
-          $ref: '#/definitions/Tag'
+          type: string
   BackstageImageForm:
     type: object
     required:
@@ -147,21 +147,11 @@ definitions:
       tags:
         type: array
         items:
-          $ref: '#/definitions/Tag'
+          type: string
   Error:
     type: object
     required:
       - message
     properties:
       message:
-        type: string
-  Tag:
-    type: object
-    required:
-      - key
-      - value
-    properties:
-      key:
-        type: string
-      value:
         type: string

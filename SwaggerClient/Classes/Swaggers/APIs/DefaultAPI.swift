@@ -31,13 +31,7 @@ open class DefaultAPI {
   "comment" : "comment",
   "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
   "trunkshow_id" : 6,
-  "tags" : [ {
-    "value" : "value",
-    "key" : "key"
-  }, {
-    "value" : "value",
-    "key" : "key"
-  } ]
+  "tags" : [ "tags", "tags" ]
 }}]
      - parameter commentId: (path)       - parameter trunkshowId: (path)  
 
@@ -81,13 +75,7 @@ open class DefaultAPI {
   "comment" : "comment",
   "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
   "trunkshow_id" : 6,
-  "tags" : [ {
-    "value" : "value",
-    "key" : "key"
-  }, {
-    "value" : "value",
-    "key" : "key"
-  } ]
+  "tags" : [ "tags", "tags" ]
 }}]
      - parameter imageId: (path)       - parameter trunkshowId: (path)  
 
@@ -132,26 +120,14 @@ open class DefaultAPI {
     "comment" : "comment",
     "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
     "trunkshow_id" : 6,
-    "tags" : [ {
-      "value" : "value",
-      "key" : "key"
-    }, {
-      "value" : "value",
-      "key" : "key"
-    } ]
+    "tags" : [ "tags", "tags" ]
   }, {
     "image_url" : "image_url",
     "product_id" : 0,
     "comment" : "comment",
     "id" : "046b6c7f-0b8a-43b9-b35d-6489e6daee91",
     "trunkshow_id" : 6,
-    "tags" : [ {
-      "value" : "value",
-      "key" : "key"
-    }, {
-      "value" : "value",
-      "key" : "key"
-    } ]
+    "tags" : [ "tags", "tags" ]
   } ]
 }}]
      - parameter imageId: (path)       - parameter trunkshowId: (path)       - parameter productId: (query)  (optional)

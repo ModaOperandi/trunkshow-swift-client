@@ -17,8 +17,8 @@ public struct BackstageImageForm: Codable {
 
     public var productId: Int?
 
-    public var tags: [Tag]?
-    public init(comment: String?, imageUrl: String, productId: Int?, tags: [Tag]?) { 
+    public var tags: [String]?
+    public init(comment: String?, imageUrl: String, productId: Int?, tags: [String]?) { 
         self.comment = comment
         self.imageUrl = imageUrl
         self.productId = productId

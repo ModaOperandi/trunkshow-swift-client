@@ -19,10 +19,10 @@ public struct BackstageItem: Codable {
 
     public var productId: Int?
 
-    public var tags: [Tag]?
+    public var tags: [String]?
 
     public var trunkshowId: Int
-    public init(comment: String?, _id: UUID, imageUrl: String?, productId: Int?, tags: [Tag]?, trunkshowId: Int) { 
+    public init(comment: String?, _id: UUID, imageUrl: String?, productId: Int?, tags: [String]?, trunkshowId: Int) { 
         self.comment = comment
         self._id = _id
         self.imageUrl = imageUrl
